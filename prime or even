@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+printf("enter the positive number");
+scanf("%d",&a);
+if(a>0)
+{
+    printf("%d is a prime number",a);
+}
+else if(a==0)
+{
+printf("%d is not a prime number",a);
+}
+return 0;
+}
