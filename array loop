@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    // declare an array and a loop variable.
+    int a[5], i;
+
+    printf("Enter five numbers:\n");
+
+    // read each number from the user
+    for (i = 0; i < 5; i++) {
+        scanf("%d", &a[i]);
+    }
+
+    printf("The array contains:\n");
+
+    // print all the numbers in the array
+    for (i = 0; i < 5; i++) {
+        printf("%d ", a[i]);
+    }
+
+    return 0;
+}
